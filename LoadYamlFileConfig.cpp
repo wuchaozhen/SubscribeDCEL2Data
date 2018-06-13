@@ -109,7 +109,6 @@ void LoadYamlFileConfig::ReadTickDataFilePath(const YAML::Node& config)
 		"{0},load tick_data_file_path::dce_tick_file_path failed.", __FUNCTION__);
 }
 
-
 void LoadYamlFileConfig::ReadDCEUserId(const YAML::Node& config)
 {
 	if (config["dce_login_info"]["user_id"]) {
