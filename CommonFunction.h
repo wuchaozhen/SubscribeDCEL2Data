@@ -178,7 +178,7 @@ public:
 			console->info("spdlog startup!");
 
 			auto daily_logger = spd::daily_logger_mt(SPDLOG_DAILY_LOGGER_NAME,
-				/*"daily.txt"*/file_name, 0, 0);
+				file_name, 0, 0);
 			daily_logger->flush_on(spd::level::err);
 			daily_logger->flush_on(spd::level::warn);
 			daily_logger->flush_on(spd::level::info);
@@ -199,6 +199,5 @@ public:
 		spdlog::drop_all();
 	}
 };
-
 
 #endif //ZHURONG_COMMONFUNCTION_H
