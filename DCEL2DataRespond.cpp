@@ -4,7 +4,6 @@
 #include "LoadYamlFileConfig.h"
 #include "Include/DFITCL2Api.h"
 
-
 DCEL2DataRespond::DCEL2DataRespond()
 :dce_l2_md_api_ptr_(nullptr)
 {
