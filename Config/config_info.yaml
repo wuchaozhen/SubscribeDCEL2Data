@@ -1,0 +1,10 @@
+tick_data_file_path:
+  dce_tick_file_path: D:\ZR_worksplace\SubscribeDCEL2Data\ 
+
+log_file_path:
+  dce_log_file_path: D:\ZR_worksplace\SubscribeDCEL2Data\
+
+dce_login_info:
+  market_data_url: tcp://203.86.95.178:10986
+  user_id: test
+  password: test
