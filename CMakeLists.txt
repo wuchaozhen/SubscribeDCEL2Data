@@ -41,5 +41,6 @@ target_link_libraries(SubscribeDCEL2Data boost_thread)
 target_link_libraries(SubscribeDCEL2Data boost_filesystem)
 target_link_libraries(SubscribeDCEL2Data boost_system)
 
+#thread
 target_link_libraries(SubscribeDCEL2Data -lpthread -lm)
 
